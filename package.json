@@ -12,6 +12,7 @@
   "dependencies": {
     "framer-motion": "^10.12.4",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-cl-audio-player": "^2.3.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.0",

@@ -1,27 +1,18 @@
 import { NavBarBuilder } from "./NavBarBuilder";
 
-const landingNavData = {
-  a: "Main",
-  b: "Description",
-  c: "History",
-  d: "Blogs",
-};
-const blogNavData = {
-  b: "Merit",
-  c: "DeMerit",
-};
+const landingNavData = [
+  { name: "Main" },
+  { name: "Description" },
+  { name: "History" },
+  { name: "Blogs" },
+];
+
+const blogNavData = [{ name: "Merit" }, { name: "DeMerit" }];
 
 export const LandingNavBar = () => {
-  const { a, b, c, d } = landingNavData;
-  return <NavBarBuilder a={a} b={b} c={c} d={d} />;
+  return <NavBarBuilder navData={landingNavData} />;
 };
 
 export const BlogNavBar = () => {
-  const { a, b, c } = blogNavData;
-
-  return (
-    <div>
-      <NavBarBuilder a={a} b={b} c={c} />
-    </div>
-  );
+  return <NavBarBuilder navData={blogNavData} />;
 };

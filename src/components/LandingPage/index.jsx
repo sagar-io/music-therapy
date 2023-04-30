@@ -9,7 +9,7 @@ import {Footer} from '../Footer/'
 
 export const Landing = () => {
   return (
-    <div className='font-comfotaa'>
+    <div className='font-comfotaa overflow-x-hidden'>
         <ProgressBar />
         <LandingNavBar />
         <Main />
