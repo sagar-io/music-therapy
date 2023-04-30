@@ -1,5 +1,6 @@
 import { BlogBuilder } from "./BlogBuilder";
 
+
 export const Parkinson = () => {
   const musicMeritsData = [
     "Research has shown that listening to classical music can have a calming effect on the mind and body, reducing stress and anxiety.",
@@ -16,9 +17,11 @@ export const Parkinson = () => {
   ];
 
   return (
-    <BlogBuilder
-      musicDeMeritsData={musicDeMeritsData}
-      musicMeritsData={musicMeritsData}
-    />
+    <>
+      <BlogBuilder
+        musicDeMeritsData={musicDeMeritsData}
+        musicMeritsData={musicMeritsData}
+      />
+    </>
   );
 };

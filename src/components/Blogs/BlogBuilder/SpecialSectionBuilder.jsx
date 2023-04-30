@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 
 export const SpecialSectionBuilder = (props) => {
   return (
-    <div className="float-right w-10/12 flex align-middle justify-center h-screen mb-64">
+    <div id={props.id} className="float-right w-10/12 flex align-middle justify-center h-screen mb-64">
       <motion.div 
       className="bg-yellow-500 flex align-middle self-center justify-center w-80 h-80 rounded-full shadow-2xl relative"
       initial={{opacity:0, scale:0, rotate: 180}}

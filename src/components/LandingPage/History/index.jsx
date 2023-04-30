@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export const History = () => {
   return (
-    <div className="float-right w-10/12 p-8">
+    <div id="History" className="float-right w-10/12 p-8">
       <h1 className="text-5xl pb-48 text-center">History</h1>
       <div className="flex gap-8">
         <div className="flex flex-col gap-[50rem] after:absolute after:w-1 after:right-0 after:h-full after:bg-blue-600 relative">

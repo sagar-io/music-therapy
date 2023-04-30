@@ -7,9 +7,8 @@ const landingNavData = {
   d: "Blogs",
 };
 const blogNavData = {
-  a: "Main",
-  b: "Merits/DeMerits",
-  c: "Research",
+  b: "Merit",
+  c: "DeMerit",
 };
 
 export const LandingNavBar = () => {

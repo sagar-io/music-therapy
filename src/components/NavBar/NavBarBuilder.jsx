@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export const NavBarBuilder = (props) => {
   return (
     <motion.nav 
-     className="bg-slate-400 backdrop-blur-lg text-black h-screen w-1/6 fixed left-0"
+     className="bg-teal-400 backdrop-blur-lg text-black h-screen w-1/6 fixed left-0"
      initial={{x:'-100%', opacity: 0.2}}
      animate={{x:0, opacity: 1}}
      >
@@ -11,19 +11,19 @@ export const NavBarBuilder = (props) => {
         
       </h3>
       <ul 
-        className="flex flex-col justify-center gap-y-20 h-full p-8"
+        className="flex flex-col justify-center gap-y-20 h-full p-8 text-xl"
        >
         <li>
-          <a href={"#" + props.a}>{props.b}</a>
+          <a href={"#" + props.a}>{props.a}</a>
         </li>
         <li>
-          <a href={"#" + props.b}>{props.c}</a>
+          <a href={"#" + props.b}>{props.b}</a>
         </li>
         <li>
-          <a href={"#" + props.c}>{props.d}</a>
+          <a href={"#" + props.c}>{props.c}</a>
         </li>
         <li>
-          <a href={"#" + props.d}>{props.a}</a>
+          <a href={"#" + props.d}>{props.d}</a>
         </li>
       </ul>
     </motion.nav>
